@@ -1,0 +1,44 @@
+COMPONENTES : 
+
+1) Siempre arrancan en mayuscula
+2) No se puede repetir nombre de componente
+3) Los componentes son funciones 
+4) Los componentes deben retornar
+5) Los componentes solo retornan una unica cosa
+
+function foo() {}
+
+const foo = () => {}
+
+class foo {}
+
+
+
+
+DESTRUCTURING : 
+
+const arr = [1,2,3]
+
+const [uno,dos,tres] = arr
+
+const uno = arr[0]
+const dos = arr[1]
+const tres = arr[2]
+
+
+
+
+const obj = {a:1, b:2, c:3}
+
+const {a:a,b:b,c:c} = obj
+const {a,b,c} = obj
+
+const a = obj.a
+const b = obj.b
+const c = obj.c
+
+
+
+OBJECT PROPERTY SHORTHAND : 
+
+    { prop : prop } === { prop }
