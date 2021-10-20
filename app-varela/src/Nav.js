@@ -1,7 +1,10 @@
 const Nav = () => {
+   
+    
     return (
+       
         <nav>
-            <a href="#">link</a>
+            <a href="#">click</a>
             
         </nav>
     )

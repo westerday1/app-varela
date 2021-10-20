@@ -21,5 +21,8 @@ h1{
     color: whitesmoke;
 }
 p{
-    color: whitesmoke;
+    color: rgb(5, 0, 0);
+}
+span{
+    color: black;
 }
